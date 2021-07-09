@@ -25,7 +25,7 @@ class OrdemVenda(Ordem):
     def executar(self):
         self.acao.vender()
 
-    
+
 class Acao:
 
     def comprar(self):
